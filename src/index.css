@@ -18,7 +18,7 @@
 }
 
 body {
-  font-family: 'Press Start 2P', cursive;
+  font-family: 'Press Start 2P', "Microsoft JhengHei", "PingFang TC", sans-serif;
   background-color: var(--bg-color);
   color: var(--text-color);
   min-height: 100vh;
@@ -59,7 +59,7 @@ body {
   border: 4px solid var(--text-color);
   color: var(--primary-color);
   padding: 1rem;
-  font-family: 'Press Start 2P', cursive;
+  font-family: 'Press Start 2P', "Microsoft JhengHei", "PingFang TC", sans-serif;
   font-size: 1.2rem;
   width: 100%;
   margin-bottom: 1.5rem;
@@ -75,7 +75,7 @@ body {
   color: var(--bg-color);
   border: 4px solid var(--border-color);
   padding: 1rem 2rem;
-  font-family: 'Press Start 2P', cursive;
+  font-family: 'Press Start 2P', "Microsoft JhengHei", "PingFang TC", sans-serif;
   font-size: 1.2rem;
   cursor: pointer;
   box-shadow: 6px 6px 0px var(--border-color);
@@ -148,6 +148,11 @@ body {
   text-align: left;
   line-height: 1.8;
   position: relative;
+  word-wrap: break-word;
+  word-break: break-word;
+  white-space: pre-wrap;
+  display: flex;
+  flex-direction: column;
 }
 
 /* For typing effect cursor */

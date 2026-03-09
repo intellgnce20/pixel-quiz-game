@@ -26,7 +26,6 @@ function App() {
   const [gameState, setGameState] = useState<'WELCOME' | 'PLAYING' | 'RESULT'>('WELCOME');
   const [userId, setUserId] = useState('');
   const [questions, setQuestions] = useState<Question[]>([]);
-  const [answers, setAnswers] = useState<Record<string, string>>({});
   const [stats, setStats] = useState<GameStats | null>(null);
   const [loading, setLoading] = useState(false);
 
@@ -144,7 +143,6 @@ function App() {
 
   const reset = () => {
     setGameState('WELCOME');
-    setAnswers({});
     setQuestions([]);
     setStats(null);
   };

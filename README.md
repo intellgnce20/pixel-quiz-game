@@ -1,5 +1,7 @@
 # Pixel Art Quiz Game (像素點陣知識問答遊戲)
 
+🎮 **線上遊玩：** [https://intellgnce20.github.io/pixel-quiz-game/](https://intellgnce20.github.io/pixel-quiz-game/)
+
 這是一個以 React + Vite 開發的像素風格知識問答遊戲。玩家可以輸入自己的 ID 進入遊戲，挑戰隨機生成的題目並記錄闖關成績。遊戲的題目來源與成績儲存皆由 Google Sheets 和 Google Apps Script 作為輕量級的後端資料庫支援。
 
 ## 系統需求
@@ -34,6 +36,13 @@
    ```bash
    npm run build
    ```
+
+5. **部署到 GitHub Pages**
+   ```bash
+   npm run deploy
+   ```
+   這會自動 build 並將 `dist` 資料夾推送到 `gh-pages` 分支。
+   > ⚠️ 請確認 GitHub 上 **Settings > Pages > Branch** 已設定為 `gh-pages`，否則不會生效。
 
 ---
 

@@ -116,7 +116,7 @@ function doPost(e) {
           attemptsToPass: passed ? 1 : null
         };
         aSheet.appendRow([
-          id,
+          "'" + id,
           userData.totalPlays,
           userData.totalScore,
           userData.maxScore,
